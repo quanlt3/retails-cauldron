@@ -13,12 +13,23 @@
               "codePush": {},
               "container": {
                 "jsApiImpls": [],
-                "miniApps": [],
-                "nativeDeps": []
+                "miniApps": [
+                  "hello-vin-miniapp@0.0.1"
+                ],
+                "nativeDeps": [
+                  "ernnavigation-api-impl-native@1.4.16",
+                  "ernnavigation-api@1.3.0",
+                  "react-native-electrode-bridge@1.5.25",
+                  "react-native@0.63.2"
+                ],
+                "ernVersion": "0.43.0"
               },
               "isReleased": false,
               "nativeDeps": [],
-              "yarnLocks": {}
+              "yarnLocks": {
+                "container": "ffe73c5c-1786-4263-809b-14d166c549a5"
+              },
+              "containerVersion": "1.0.0"
             }
           ]
         }
